@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+$fonts: 'Open Sans', sans-serif;
+
+body {
+	font-family: $fonts;
+	margin: 0;
+	background-color: red;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #3C5009;
+}
+
+.container {
+	h1	{
+		color: #500000;
+		text-transform: uppercase;
+	}
+	h4 {
+	text-transform: uppercase;
+	}
+}
+
+.footer {
+	text-align: center;
+}
